@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C08a 订单详情 · 待确认 · 萌宠之家 Petopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview">
+<div class="phone">
+  <header class="appbar">
+    <a class="appbar-back" href="c07-orders.html" aria-label="返回">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m15 5-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <h1 class="appbar-title">订单详情</h1>
+  </header>
+
+  <main class="screen">
+    <div class="page-pad">
+      <section class="status-hero">
+        <div class="status-hero-top">
+          <span class="pill-status pending">待确认</span>
+        </div>
+        <h1>已提交，等小萌确认</h1>
+        <p>确认后你会收到一条提醒，不用一直盯着看。</p>
+        <div class="steps" aria-label="订单进度">
+          <div class="step done"><span class="step-dot"></span>提交</div>
+          <div class="step current"><span class="step-dot"></span>确认</div>
+          <div class="step"><span class="step-dot"></span>入住</div>
+          <div class="step"><span class="step-dot"></span>完成</div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="order-pet">
+          <div class="avatar lg">🐶</div>
+          <div class="order-pet-info">
+            <div class="order-pet-name">豆豆</div>
+            <div class="muted">金毛 · 12.5kg</div>
+          </div>
+          <span class="pill pill-success">疫苗有效</span>
+        </div>
+
+        <div class="order-dates">
+          <div><span class="tiny">入住</span><strong>11/12</strong></div>
+          <span class="date-arrow">→</span>
+          <div><span class="tiny">离店</span><strong>11/16</strong></div>
+          <span class="countdown">4 晚</span>
+        </div>
+
+        <div class="bill-table" style="margin-top:14px;">
+          <div class="bill-row"><span>预估金额</span><span class="amount">¥352</span></div>
+          <div class="bill-row"><span>支付方式</span><span>到店支付</span></div>
+          <div class="bill-row"><span>备用接宠人</span><span>妈妈 138****6688</span></div>
+          <div class="bill-row"><span>备注</span><span>有点怕生，别同笼</span></div>
+        </div>
+      </section>
+
+      <div class="section">
+        <a class="btn btn-primary btn-block" href="tel:13800000000" style="margin-top:0;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 4.5 9.2 4l2 5-2.2 1.4a13 13 0 0 0 5.1 5.1l1.4-2.2 5 2-.5 2.2c-.2.9-1 1.5-1.9 1.5C10.6 19 5 13.4 5 6.4c0-.9.6-1.7 1.5-1.9Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          联系小萌
+        </a>
+        <div class="btn-row">
+          <a class="btn btn-secondary" href="c04-booking.html">改期</a>
+          <a class="btn btn-danger" href="c07-orders.html">取消订单</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="ui.js"></script>
+</body>
+</html>

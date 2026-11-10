@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>21 屏 HTML 原型 · 萌宠之家 Petopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="index-page">
+  <header class="index-header">
+    <img class="index-logo" src="logo.svg" alt="萌宠之家 Petopia">
+    <div>
+      <h1>21 屏 HTML 原型</h1>
+      <p>客户侧软萌治愈 · 店主端简洁高效 · 视觉规范见 <strong>04-2</strong></p>
+    </div>
+  </header>
+
+  <div class="token-strip" aria-label="设计令牌">
+    <span class="swatch"><i style="background:#FF5F00"></i>Primary #FF5F00</span>
+    <span class="swatch"><i style="background:#FFF9F4"></i>Cream #FFF9F4</span>
+    <span class="swatch"><i style="background:#3B2A21"></i>Ink #3B2A21</span>
+    <span class="swatch"><i style="background:#FFF3EC"></i>Soft #FFF3EC</span>
+    <span class="swatch"><i style="background:#2F7D4F"></i>Success #2F7D4F</span>
+    <span class="swatch"><i style="background:#8A5300"></i>Warning #8A5300</span>
+    <span class="swatch"><i style="background:#B83A2E"></i>Danger #B83A2E</span>
+    <span class="swatch"><i style="background:#245B82"></i>Info #245B82</span>
+  </div>
+
+  <div class="filters" role="group" aria-label="筛选原型">
+    <button class="filter-btn active" data-filter="all" type="button">全部 21</button>
+    <button class="filter-btn" data-filter="client" type="button">客户侧 16</button>
+    <button class="filter-btn" data-filter="owner" type="button">店主端 5</button>
+  </div>
+
+  <main class="gallery">
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c01-home.html" title="C01 首页" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C01</span><span class="shot-name">首页 · 有下一单</span><a class="shot-open" href="c01-home.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c01b-home-empty.html" title="C01b 首页未建档" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C01b</span><span class="shot-name">首页 · 未建档</span><a class="shot-open" href="c01b-home-empty.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c02-pets.html" title="C02 我的宠物" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C02</span><span class="shot-name">我的宠物</span><a class="shot-open" href="c02-pets.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c03-pet-profile.html" title="C03 建立档案" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C03</span><span class="shot-name">建立档案</span><a class="shot-open" href="c03-pet-profile.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c04-booking.html" title="C04 预约寄养" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C04</span><span class="shot-name">预约寄养</span><a class="shot-open" href="c04-booking.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c04b-booking-full.html" title="C04b 预约满位" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C04b</span><span class="shot-name">预约寄养 · 满位</span><a class="shot-open" href="c04b-booking-full.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c05-terms.html" title="C05 服务条款" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C05</span><span class="shot-name">寄养服务条款</span><a class="shot-open" href="c05-terms.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c06-success.html" title="C06 提交成功" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C06</span><span class="shot-name">提交成功</span><a class="shot-open" href="c06-success.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c07-orders.html" title="C07 订单列表" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C07</span><span class="shot-name">订单列表</span><a class="shot-open" href="c07-orders.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c08a-order-pending.html" title="C08a 待确认" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C08a</span><span class="shot-name">订单详情 · 待确认</span><a class="shot-open" href="c08a-order-pending.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c08b-order-staying.html" title="C08b 入住中" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C08b</span><span class="shot-name">订单详情 · 入住中</span><a class="shot-open" href="c08b-order-staying.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c08c-order-bill.html" title="C08c 待确认账单" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C08c</span><span class="shot-name">订单详情 · 待确认账单</span><a class="shot-open" href="c08c-order-bill.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c08d-order-done.html" title="C08d 已完成" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C08d</span><span class="shot-name">订单详情 · 已完成</span><a class="shot-open" href="c08d-order-done.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c08e-order-overdue.html" title="C08e 逾期未接" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C08e</span><span class="shot-name">订单详情 · 逾期未接</span><a class="shot-open" href="c08e-order-overdue.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c09-me.html" title="C09 我的" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C09</span><span class="shot-name">我的</span><a class="shot-open" href="c09-me.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="client">
+      <div class="shot-frame"><iframe src="c10-delete-account.html" title="C10 注销账号" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">C10</span><span class="shot-name">注销账号</span><a class="shot-open" href="c10-delete-account.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="owner">
+      <div class="shot-frame"><iframe src="d01-today.html" title="D01 今日" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">D01</span><span class="shot-owner">店主</span><span class="shot-name">今日</span><a class="shot-open" href="d01-today.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="owner">
+      <div class="shot-frame"><iframe src="d02-order-handle.html" title="D02 订单处理" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">D02</span><span class="shot-owner">店主</span><span class="shot-name">订单处理</span><a class="shot-open" href="d02-order-handle.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="owner">
+      <div class="shot-frame"><iframe src="d03-daily-report.html" title="D03 发日报" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">D03</span><span class="shot-owner">店主</span><span class="shot-name">发日报</span><a class="shot-open" href="d03-daily-report.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="owner">
+      <div class="shot-frame"><iframe src="d04-checkout.html" title="D04 结算" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">D04</span><span class="shot-owner">店主</span><span class="shot-name">结算</span><a class="shot-open" href="d04-checkout.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+
+    <article class="shot" data-group="owner">
+      <div class="shot-frame"><iframe src="d05-overdue.html" title="D05 逾期处理" loading="lazy"></iframe></div>
+      <div class="shot-meta"><span class="shot-id">D05</span><span class="shot-owner">店主</span><span class="shot-name">逾期处理</span><a class="shot-open" href="d05-overdue.html" target="_blank" rel="noopener">打开 ↗</a></div>
+    </article>
+  </main>
+
+  <footer class="index-foot">
+    <p>用法：缩略图按 390 × 844 设计尺寸等比缩放；点「打开 ↗」在新窗口查看单页。客户侧 16 屏、店主端 5 屏，共 21 屏。</p>
+    <p>视觉规范：<strong>04-2-adding-UI-design-in-prd.md</strong> · Logo：<strong>logo.svg / logo-mark.svg</strong></p>
+  </footer>
+
+  <script>
+    (function () {
+      var buttons = document.querySelectorAll(".filter-btn");
+      var shots = document.querySelectorAll(".shot");
+      var frames = document.querySelectorAll(".shot-frame");
+
+      function fit() {
+        Array.prototype.forEach.call(frames, function (frame) {
+          var iframe = frame.querySelector("iframe");
+          if (!iframe) return;
+          var scale = frame.clientWidth / 390;
+          iframe.style.transform = "scale(" + scale + ")";
+        });
+      }
+
+      Array.prototype.forEach.call(buttons, function (button) {
+        button.addEventListener("click", function () {
+          Array.prototype.forEach.call(buttons, function (b) {
+            b.classList.toggle("active", b === button);
+          });
+          var filter = button.getAttribute("data-filter");
+          Array.prototype.forEach.call(shots, function (shot) {
+            shot.hidden = filter !== "all" && shot.getAttribute("data-group") !== filter;
+          });
+          fit();
+        });
+      });
+
+      window.addEventListener("resize", fit);
+      window.addEventListener("load", fit);
+      fit();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C01 首页 · 萌宠之家 Petopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview">
+<div class="phone" data-tab="home">
+  <header class="appbar">
+    <div class="appbar-brand">
+      <img class="brand-mark" src="logo-mark.svg" alt="">
+      <span class="brand-name">萌宠之家</span>
+    </div>
+    <span class="appbar-note"><span class="reply-dot"></span>小萌 · 2小时内回</span>
+  </header>
+
+  <main class="screen">
+    <div class="page-pad">
+      <section class="hero-brand">
+        <img class="hero-logo" src="logo.svg" alt="萌宠之家 Petopia">
+        <p class="hero-tagline">安心寄养 · 每天都有日报</p>
+      </section>
+
+      <section class="card card-order">
+        <div class="order-head">
+          <span class="pill-status confirmed">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="5.5" width="16" height="15" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M8 3.5v4M16 3.5v4M4 10h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            待入住
+          </span>
+          <span class="muted">下一单</span>
+        </div>
+
+        <div class="order-pet">
+          <div class="avatar">🐶</div>
+          <div class="order-pet-info">
+            <div class="order-pet-name">豆豆</div>
+            <div class="muted">金毛 · 12.5kg</div>
+          </div>
+          <div class="order-price">
+            <span class="price-num">¥352</span>
+            <span class="price-unit">共 4 晚</span>
+          </div>
+        </div>
+
+        <div class="order-dates">
+          <div><span class="tiny">入住</span><strong>11月12日</strong></div>
+          <span class="date-arrow">→</span>
+          <div><span class="tiny">离店</span><strong>11月16日</strong></div>
+          <span class="countdown">还有 7 天</span>
+        </div>
+
+        <a class="order-link" href="c08a-order-pending.html">
+          查看订单
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">本周还剩 2 个位置</h2>
+          <span class="section-note">11/08 – 11/10</span>
+        </div>
+        <div class="day-row">
+          <div class="day-chip ok"><span class="day">11/08</span><span class="state">✓ 可订</span></div>
+          <div class="day-chip full"><span class="day">11/09</span><span class="state">满</span></div>
+          <div class="day-chip low"><span class="day">11/10</span><span class="state">剩 1</span></div>
+        </div>
+      </section>
+
+      <a class="btn btn-primary btn-block" href="c04-booking.html">预约寄养 / 再约一次</a>
+
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">在店的小家伙</h2>
+          <a class="section-link" href="c07-orders.html">
+            更多
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <div class="pet-strip">
+          <div class="pet-mini"><div class="avatar sm">🐶</div><span>豆豆</span></div>
+          <div class="pet-mini"><div class="avatar sm">🐱</div><span>花卷</span></div>
+          <div class="pet-mini"><div class="avatar sm">🐕</div><span>大黄</span></div>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+<script src="ui.js"></script>
+</body>
+</html>

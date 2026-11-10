@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C07 订单列表 · 萌宠之家 Petopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview">
+<div class="phone" data-tab="orders">
+  <header class="appbar">
+    <h1 class="appbar-title">我的订单</h1>
+    <a class="appbar-action" href="c01-home.html" aria-label="回首页">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10.6 12 4l8 6.6V20a1 1 0 0 1-1 1h-4.8v-6.2H9.8V21H5a1 1 0 0 1-1-1v-9.4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+    </a>
+  </header>
+
+  <main class="screen">
+    <div class="page-pad">
+      <div class="filter-scroll">
+        <button class="chip active" type="button">全部</button>
+        <button class="chip" type="button">待确认</button>
+        <button class="chip" type="button">待入住</button>
+        <button class="chip" type="button">入住中</button>
+        <button class="chip" type="button">已完成</button>
+      </div>
+
+      <section class="card" style="margin-top:14px;">
+        <div class="card-head">
+          <span class="pill-status pending">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            待确认
+          </span>
+          <span class="tiny">已等 20 分钟</span>
+        </div>
+        <div class="order-pet">
+          <div class="avatar">🐶</div>
+          <div class="order-pet-info">
+            <div class="order-pet-name">豆豆 · 11/12–11/16</div>
+            <div class="muted">金毛 · 4 晚 · 待小萌确认</div>
+          </div>
+          <div class="order-price"><span class="price-num">¥352</span></div>
+        </div>
+        <a class="order-link" href="c08a-order-pending.html">
+          详情
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <span class="pill-status done">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            已完成
+          </span>
+          <span class="tiny">10/22 接走</span>
+        </div>
+        <div class="order-pet">
+          <div class="avatar">🐱</div>
+          <div class="order-pet-info">
+            <div class="order-pet-name">花卷 · 10/20–10/22</div>
+            <div class="muted">英短 · 2 晚 · 已结清</div>
+          </div>
+          <div class="order-price"><span class="price-num">¥176</span></div>
+        </div>
+        <a class="order-link" href="c08d-order-done.html">
+          详情
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </section>
+    </div>
+  </main>
+</div>
+<script src="ui.js"></script>
+</body>
+</html>

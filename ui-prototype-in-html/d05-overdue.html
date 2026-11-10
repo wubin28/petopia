@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>D05 逾期处理 · 店主端 · 萌宠之家 Petopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview owner">
+<div class="phone">
+  <header class="appbar">
+    <a class="appbar-back" href="d01-today.html" aria-label="返回">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m15 5-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <h1 class="appbar-title">逾期 <span class="appbar-sub">1 单</span></h1>
+    <span class="owner-pill">店主</span>
+  </header>
+
+  <main class="screen">
+    <div class="page-pad">
+      <section class="card">
+        <div class="card-head">
+          <div>
+            <h2 class="card-title">大黄</h2>
+            <p class="tiny" style="margin-top:3px;">约定 11/13 18:00 接走</p>
+          </div>
+          <span class="pill-status overdue">逾期 2 天</span>
+        </div>
+        <div class="bill-total" style="margin:0; padding-top:2px; border:0;">
+          <span>累计</span>
+          <span class="amount" style="color:var(--danger);">¥264</span>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">沟通记录</h2>
+          <span class="section-note">自动留痕</span>
+        </div>
+        <div class="card">
+          <div class="log">
+            <div class="log-item">
+              <span class="log-time">11/14 09:12</span>
+              <span class="log-main">微信提醒</span>
+              <span class="log-status">已发</span>
+            </div>
+            <div class="log-item">
+              <span class="log-time">11/14 15:30</span>
+              <span class="log-main">电话</span>
+              <span class="log-status miss">未接</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="field-label" style="margin-bottom:8px;">催告模板</p>
+        <div class="chip-row">
+          <button class="chip" type="button">友好提醒</button>
+          <button class="chip" type="button">延期确认</button>
+          <button class="chip" type="button">正式催告</button>
+        </div>
+      </section>
+
+      <div class="section">
+        <button class="btn btn-primary btn-block" type="button" style="margin-top:0;">记录本次沟通</button>
+        <p class="tiny" style="text-align:center; margin-top:12px;">逾期期间日报照发，作为管理留痕。</p>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="ui.js"></script>
+</body>
+</html>

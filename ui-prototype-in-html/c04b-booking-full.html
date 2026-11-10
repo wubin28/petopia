@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C04b 预约寄养 · 满位 · 萌宠之家 Petopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview">
+<div class="phone">
+  <header class="appbar">
+    <a class="appbar-back" href="c01-home.html" aria-label="返回">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m15 5-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <h1 class="appbar-title">预约寄养</h1>
+  </header>
+
+  <main class="screen">
+    <div class="page-pad">
+      <section class="card">
+        <div class="card-head">
+          <h2 class="card-title">宠物</h2>
+          <a class="section-link" href="c02-pets.html">更换</a>
+        </div>
+        <div class="pet-card">
+          <div class="avatar">🐶</div>
+          <div class="pet-card-info">
+            <div class="pet-card-name">豆豆</div>
+            <div class="pet-card-meta">12.5kg · ≥10kg 档</div>
+          </div>
+          <span class="pill pill-success">疫苗有效</span>
+        </div>
+      </section>
+
+      <div class="section">
+        <div class="date-row">
+          <div class="date-row-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="5.5" width="16" height="15" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M8 3.5v4M16 3.5v4M4 10h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <div class="date-row-main"><span class="tiny">入住日期</span><strong>2026-11-13 周四</strong></div>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="date-row">
+          <div class="date-row-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="5.5" width="16" height="15" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M8 3.5v4M16 3.5v4M4 10h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <div class="date-row-main"><span class="tiny">离店日期</span><strong>2026-11-17 周一</strong></div>
+          <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+      </div>
+
+      <div class="banner banner-warn section" role="status">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4 2.8 20h18.4L12 4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 9.5V14M12 17.2v.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        11/15 已满，请调整日期
+      </div>
+
+      <div class="price-box section">
+        <div class="price-line"><span>共 3 晚 · ¥88/晚</span><span>¥264</span></div>
+        <div class="price-total">
+          <div><span class="label">合计</span> <span class="pay-tag">到店支付</span></div>
+          <span class="amount">¥264</span>
+        </div>
+      </div>
+
+      <div class="form section">
+        <div class="field">
+          <label class="field-label" for="backup">备用接宠人</label>
+          <div class="select-wrap">
+            <select class="select" id="backup">
+              <option>妈妈 138****6688</option>
+              <option>爸爸 139****2233</option>
+              <option>室友 137****8899</option>
+            </select>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <label class="checkbox-row">
+          <input class="checkbox" type="checkbox" checked>
+          <span>已阅读并同意 <a class="link" href="c05-terms.html">《寄养服务条款》</a></span>
+        </label>
+
+        <button class="btn btn-primary btn-block btn-disabled" type="button" style="margin-top:4px;">日期不可订，请改期</button>
+        <p class="tiny" style="text-align:center; margin-top:10px;">换一个日期，或联系小萌帮你看看</p>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="ui.js"></script>
+</body>
+</html>

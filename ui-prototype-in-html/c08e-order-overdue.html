@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C08e 订单详情 · 逾期未接 · 萌宠之家 Petopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview">
+<div class="phone">
+  <header class="appbar">
+    <a class="appbar-back" href="c07-orders.html" aria-label="返回">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m15 5-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <h1 class="appbar-title">订单详情</h1>
+  </header>
+
+  <main class="screen">
+    <div class="page-pad">
+      <section class="status-hero">
+        <div class="status-hero-top">
+          <span class="pill-status overdue">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4 2.8 20h18.4L12 4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 9.5V14M12 17.2v.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            逾期未接
+          </span>
+        </div>
+        <h1>已超约定接回日 2 天</h1>
+        <p>请尽快联系小萌安排接回，逾期期间日报照发。</p>
+      </section>
+
+      <section class="card">
+        <div class="order-pet">
+          <div class="avatar lg">🐕</div>
+          <div class="order-pet-info">
+            <div class="order-pet-name">大黄</div>
+            <div class="muted">中华田园犬 · 15kg</div>
+          </div>
+          <span class="pill pill-danger">累计计费中</span>
+        </div>
+
+        <div class="bill-table" style="margin-top:14px;">
+          <div class="bill-row"><span>约定接回</span><span>11/13 18:00</span></div>
+          <div class="bill-row"><span>逾期天数</span><span>2 天</span></div>
+          <div class="bill-row"><span>当前累计</span><span class="amount" style="color:var(--danger); font-size:15px;">¥264</span></div>
+          <div class="bill-row"><span>计费标准</span><span>¥132/晚（1.5 倍）</span></div>
+          <div class="bill-row"><span>联系记录</span><span>小萌已联系 2 次，未接通</span></div>
+        </div>
+      </section>
+
+      <div class="banner banner-danger section" role="alert">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4 2.8 20h18.4L12 4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 9.5V14M12 17.2v.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        逾期费用按天累计，越晚接回金额越高。如已安排，请直接联系小萌。
+      </div>
+
+      <div class="section">
+        <a class="btn btn-primary btn-block" href="tel:13800000000" style="margin-top:0;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 4.5 9.2 4l2 5-2.2 1.4a13 13 0 0 0 5.1 5.1l1.4-2.2 5 2-.5 2.2c-.2.9-1 1.5-1.9 1.5C10.6 19 5 13.4 5 6.4c0-.9.6-1.7 1.5-1.9Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          联系小萌
+        </a>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="ui.js"></script>
+</body>
+</html>

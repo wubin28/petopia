@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C08c 订单详情 · 待确认账单 · 萌宠之家 Petopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview">
+<div class="phone">
+  <header class="appbar">
+    <a class="appbar-back" href="c07-orders.html" aria-label="返回">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m15 5-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <h1 class="appbar-title">订单详情</h1>
+  </header>
+
+  <main class="screen">
+    <div class="page-pad">
+      <section class="status-hero">
+        <div class="status-hero-top">
+          <span class="pill-status bill">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 3.5h12v17l-3-2-3 2-3-2-3 2v-17Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 8h6M9 12h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            待确认账单
+          </span>
+        </div>
+        <h1>请核对后确认</h1>
+        <p>确认后金额会留存在订单里，到店或离店当面支付。</p>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2 class="card-title">账单明细</h2>
+          <span class="tiny">豆豆 · 4 晚</span>
+        </div>
+
+        <div class="bill-table">
+          <div class="bill-row"><span>寄养 4 晚 × ¥88</span><span class="amount">¥352</span></div>
+          <div class="bill-row"><span>加粮 2 天 × ¥10</span><span class="amount">¥20</span></div>
+          <div class="bill-row"><span>洗澡</span><span class="amount">¥60</span></div>
+          <div class="bill-row"><span>逾期 0 晚</span><span class="amount">¥0</span></div>
+        </div>
+
+        <div class="bill-total">
+          <span>合计</span>
+          <span class="amount">¥432</span>
+        </div>
+      </section>
+
+      <div class="banner banner-info section" role="note">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.8"/><path d="M12 10.5V16M12 8v.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        到店或离店当面支付，不支持在线付款
+      </div>
+    </div>
+  </main>
+
+  <div class="bottom-bar">
+    <a class="btn btn-secondary" href="tel:13800000000">有疑问，联系小萌</a>
+    <a class="btn btn-primary" href="c08d-order-done.html">确认账单</a>
+  </div>
+</div>
+<script src="ui.js"></script>
+</body>
+</html>

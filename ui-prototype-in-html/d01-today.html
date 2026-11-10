@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>D01 今日 · 店主端 · 萌宠之家 Petopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview owner">
+<div class="phone">
+  <header class="appbar">
+    <h1 class="appbar-title">今日 <span class="appbar-sub">11/14 周五</span></h1>
+    <span class="owner-pill">店主</span>
+  </header>
+
+  <main class="screen">
+    <div class="page-pad">
+      <div class="stat-grid">
+        <div class="stat-card pending"><span class="stat-num">2</span><span class="stat-label">待确认</span></div>
+        <div class="stat-card today"><span class="stat-num">1</span><span class="stat-label">今日接宠</span></div>
+        <div class="stat-card staying"><span class="stat-num">3</span><span class="stat-label">在店</span></div>
+        <div class="stat-card report"><span class="stat-num">2</span><span class="stat-label">待发日报</span></div>
+        <div class="stat-card overdue"><span class="stat-num">0</span><span class="stat-label">逾期</span></div>
+      </div>
+
+      <section class="section">
+        <div class="section-head">
+          <h2 class="section-title">待办</h2>
+          <span class="section-note">按今天必须做完排序</span>
+        </div>
+        <div class="task-list">
+          <a class="task-item" href="d02-order-handle.html">
+            <span class="task-dot pending"></span>
+            <div class="task-main">
+              <div class="task-title">王小萌 · 豆豆 · 11/16 入住</div>
+              <div class="task-meta">待确认 · 20 分钟前</div>
+            </div>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 5 7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+
+          <a class="task-item" href="d02-order-handle.html">
+            <span class="task-dot pending"></span>
+            <div class="task-main">
+              <div class="task-title">李雷 · 花卷 · 11/15 入住</div>
+              <div class="task-meta">待确认 · 2 小时前</div>
+            </div>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 5 7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+
+          <a class="task-item" href="d04-checkout.html">
+            <span class="task-dot checkout"></span>
+            <div class="task-main">
+              <div class="task-title">大黄 · 今日 18:00 接走</div>
+              <div class="task-meta">待结算 · 单间 A</div>
+            </div>
+            <svg class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 5 7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </section>
+
+      <div class="section">
+        <a class="btn btn-primary btn-block" href="d03-daily-report.html" style="margin-top:0;">发今日日报</a>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="ui.js"></script>
+</body>
+</html>

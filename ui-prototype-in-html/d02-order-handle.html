@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>D02 订单处理 · 店主端 · 萌宠之家 Petopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview owner">
+<div class="phone">
+  <header class="appbar">
+    <a class="appbar-back" href="d01-today.html" aria-label="返回">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m15 5-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <h1 class="appbar-title">MC1112-01 <span class="appbar-sub">待确认</span></h1>
+    <span class="owner-pill">店主</span>
+  </header>
+
+  <main class="screen">
+    <div class="page-pad">
+      <section class="card">
+        <div class="card-head">
+          <div>
+            <h2 class="card-title">王小萌</h2>
+            <p class="tiny" style="margin-top:3px;">138****6688</p>
+          </div>
+          <span class="pill-status pending">待确认</span>
+        </div>
+
+        <div class="order-pet">
+          <div class="avatar">🐶</div>
+          <div class="order-pet-info">
+            <div class="order-pet-name">豆豆</div>
+            <div class="muted">金毛 · 12.5kg · 已绝育</div>
+          </div>
+        </div>
+
+        <div style="margin-top:10px;">
+          <span class="pill pill-success">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            疫苗 2027-03 有效
+          </span>
+        </div>
+
+        <div class="order-dates">
+          <div><span class="tiny">入住</span><strong>11/12</strong></div>
+          <span class="date-arrow">→</span>
+          <div><span class="tiny">离店</span><strong>11/16</strong></div>
+          <span class="countdown">4 晚 · ¥352</span>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="bill-table">
+          <div class="bill-row"><span>备用接宠人</span><span>妈妈 138****6688</span></div>
+          <div class="bill-row"><span>备注</span><span style="text-align:right;">有点怕生，别同笼</span></div>
+        </div>
+      </section>
+
+      <div class="section">
+        <a class="btn btn-primary btn-block" href="c08b-order-staying.html" style="margin-top:0;">确认接单</a>
+        <div class="btn-row">
+          <button class="btn btn-ghost" type="button">改价</button>
+          <button class="btn btn-danger" type="button">拒绝</button>
+        </div>
+        <p class="tiny" style="text-align:center; margin-top:12px;">拒绝必须填原因，客户会收到。</p>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="ui.js"></script>
+</body>
+</html>

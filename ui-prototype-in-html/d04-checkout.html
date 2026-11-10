@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>D04 结算 · 店主端 · 萌宠之家 Petopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview owner">
+<div class="phone">
+  <header class="appbar">
+    <a class="appbar-back" href="d01-today.html" aria-label="返回">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m15 5-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <h1 class="appbar-title">结算 <span class="appbar-sub">豆豆</span></h1>
+    <span class="owner-pill">店主</span>
+  </header>
+
+  <main class="screen">
+    <div class="page-pad">
+      <section class="card">
+        <div class="check-row">
+          <input class="checkbox" type="checkbox" checked>
+          <span class="check-label">实际 4 晚 × ¥88</span>
+          <span class="check-qty">4 晚</span>
+          <span class="check-amount">¥352</span>
+        </div>
+        <div class="check-row">
+          <input class="checkbox" type="checkbox" checked>
+          <span class="check-label">加粮</span>
+          <span class="check-qty">¥10/天 × 2</span>
+          <span class="check-amount">¥20</span>
+        </div>
+        <div class="check-row">
+          <input class="checkbox" type="checkbox">
+          <span class="check-label">洗澡</span>
+          <span class="check-qty">¥60</span>
+          <span class="check-amount">¥0</span>
+        </div>
+        <div class="check-row">
+          <input class="checkbox" type="checkbox">
+          <span class="check-label">超时</span>
+          <span class="check-qty">¥10/小时 × 0</span>
+          <span class="check-amount">¥0</span>
+        </div>
+        <div class="check-row">
+          <input class="checkbox" type="checkbox">
+          <span class="check-label">逾期</span>
+          <span class="check-qty">0 晚 × ¥132</span>
+          <span class="check-amount">¥0</span>
+        </div>
+        <div class="check-row">
+          <span class="check-label">其他</span>
+          <input class="input" style="height:34px; width:92px; margin-left:auto; text-align:right; padding:0 8px; background:#fff;" placeholder="手填">
+          <span class="check-amount">¥0</span>
+        </div>
+      </section>
+
+      <div class="card">
+        <div class="bill-total" style="margin:0; padding:0; border:0;">
+          <span>合计</span>
+          <span class="amount">¥432</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <button class="btn btn-primary btn-block" type="button" style="margin-top:0;">生成账单，发给客户</button>
+        <p class="tiny" style="text-align:center; margin-top:12px;">生成后客户会在订单详情里确认。</p>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="ui.js"></script>
+</body>
+</html>

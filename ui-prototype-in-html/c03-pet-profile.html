@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C03 建立档案 · 萌宠之家 Petopia</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview">
+<div class="phone">
+  <header class="appbar">
+    <a class="appbar-back" href="c02-pets.html" aria-label="返回">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m15 5-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <h1 class="appbar-title">建立档案</h1>
+    <span class="step-tag">1/2 可跳过</span>
+  </header>
+
+  <main class="screen">
+    <div class="page-pad">
+      <div class="form">
+        <div class="field">
+          <span class="field-label">宠物照片 <span class="field-hint">你认狗用，客户也愿意传</span></span>
+          <div class="upload-row">
+            <div class="upload-tile">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              上传照片
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="pet-name">姓名</label>
+          <input class="input" id="pet-name" value="豆豆" placeholder="宝贝叫什么">
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="pet-breed">品种</label>
+          <div class="select-wrap">
+            <select class="select" id="pet-breed">
+              <option>金毛</option>
+              <option>拉布拉多</option>
+              <option>英短</option>
+              <option>中华田园犬</option>
+            </select>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="pet-weight">体重 (kg) <span class="field-hint">报价靠这个数</span></label>
+          <input class="input" id="pet-weight" value="12.5" inputmode="decimal">
+        </div>
+
+        <div class="field">
+          <span class="field-label">疫苗本照片 <span class="field-hint">出事时的唯一凭证</span></span>
+          <div class="upload-row">
+            <div class="upload-tile">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              上传疫苗本
+            </div>
+          </div>
+        </div>
+
+        <div class="divider-label">以下可以先跳过，接宠前补齐</div>
+
+        <div class="field">
+          <span class="field-label">性别</span>
+          <div class="radio-row">
+            <label class="radio-option"><input class="radio" type="radio" name="sex" checked>公</label>
+            <label class="radio-option"><input class="radio" type="radio" name="sex">母</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="pet-birth">生日</label>
+          <div class="select-wrap">
+            <select class="select" id="pet-birth">
+              <option>2021-05-01</option>
+              <option>2020-01-01</option>
+              <option>2022-03-15</option>
+            </select>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+
+        <div class="field">
+          <span class="field-label">是否绝育</span>
+          <div class="radio-row">
+            <label class="radio-option"><input class="radio" type="radio" name="fixed" checked>是</label>
+            <label class="radio-option"><input class="radio" type="radio" name="fixed">否</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <span class="field-label">性格 <span class="field-hint">最多 4 个</span></span>
+          <div class="chip-row">
+            <span class="chip active">亲人</span>
+            <span class="chip">怕生</span>
+            <span class="chip">护食</span>
+            <span class="chip">爱叫</span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="pet-food">喂食</label>
+          <textarea class="textarea" id="pet-food">一天两顿，每次 100g</textarea>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="pet-history">病史用药</label>
+          <textarea class="textarea" id="pet-history">无</textarea>
+        </div>
+
+        <div style="height:4px"></div>
+        <a class="btn btn-primary btn-block" href="c04-booking.html" style="margin-top:0;">保存并去预约</a>
+        <a class="btn btn-ghost btn-block" href="c02-pets.html" style="margin-top:10px;">仅保存</a>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="ui.js"></script>
+</body>
+</html>
